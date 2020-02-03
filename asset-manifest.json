@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/movie_app_remake/static/css/main.efec64a4.chunk.css",
+    "main.js": "/movie_app_remake/static/js/main.4bcb572d.chunk.js",
+    "main.js.map": "/movie_app_remake/static/js/main.4bcb572d.chunk.js.map",
+    "runtime-main.js": "/movie_app_remake/static/js/runtime-main.b73f9b2c.js",
+    "runtime-main.js.map": "/movie_app_remake/static/js/runtime-main.b73f9b2c.js.map",
+    "static/js/2.faa4e53d.chunk.js": "/movie_app_remake/static/js/2.faa4e53d.chunk.js",
+    "static/js/2.faa4e53d.chunk.js.map": "/movie_app_remake/static/js/2.faa4e53d.chunk.js.map",
+    "index.html": "/movie_app_remake/index.html",
+    "precache-manifest.c028e38f2f97069388fe8d3e528a06a7.js": "/movie_app_remake/precache-manifest.c028e38f2f97069388fe8d3e528a06a7.js",
+    "service-worker.js": "/movie_app_remake/service-worker.js",
+    "static/css/main.efec64a4.chunk.css.map": "/movie_app_remake/static/css/main.efec64a4.chunk.css.map",
+    "static/js/2.faa4e53d.chunk.js.LICENSE.txt": "/movie_app_remake/static/js/2.faa4e53d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b73f9b2c.js",
+    "static/js/2.faa4e53d.chunk.js",
+    "static/css/main.efec64a4.chunk.css",
+    "static/js/main.4bcb572d.chunk.js"
+  ]
+}
