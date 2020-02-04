@@ -1,7 +1,7 @@
 import React from 'react';
+import './Detail.css';
 
 class Detail extends React.Component {
-  // console.log(location.state);
   componentDidMount() {
     const { location, history } = this.props;
     if (location.state === undefined) {
@@ -9,8 +9,45 @@ class Detail extends React.Component {
     }
   }
   render() {
-    const { location } = this.props;
-    return <span>{location.state.title}</span>;
+    const { location, history } = this.props;
+
+    return (
+      <div className="movie__background">
+        <img
+          className="background__image"
+          src={location.state.bgImage}
+          alt={location.state.title}
+        />
+        <div className="movie__detail">
+          <div className="detail__title">
+            <h2>{location.state.title}</h2>
+          </div>
+          <div className="detail__year">
+            <span>Released in {location.state.year}</span>
+          </div>
+          <div className="detail__image">
+            <img src={location.state.poster} alt={location.state.title} />
+          </div>
+          <div className="detail__genres">
+            <h3 className="detail__subtitle">Genres</h3>
+            <ul>
+              {location.state.genres.map((genre, index) => (
+                <li className="detail__genre" key={index}>
+                  {genre}
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="detail__summary">
+            <h3 className="detail__subtitle">Summary</h3>
+            <p>{location.state.summary}</p>
+          </div>
+          <div className="back__button">
+            <span onClick={() => history.goBack()}>Back to List</span>
+          </div>
+        </div>
+      </div>
+    );
   }
 }
 
