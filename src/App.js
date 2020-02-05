@@ -6,7 +6,7 @@ import Detail from './routes/Detail';
 import './App.css';
 import Navigation from './components/Navigation';
 
-function App() {
+const App = () => {
   return (
     <BrowserRouter>
       <Navigation />
@@ -15,6 +15,6 @@ function App() {
       <Route path="/movie/:id" component={Detail} />
     </BrowserRouter>
   );
-}
+};
 
 export default App;

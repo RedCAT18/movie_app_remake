@@ -1,8 +1,7 @@
 import React from 'react';
 import './About.css';
 
-function About(props) {
-  console.log(props);
+const About = () => {
   return (
     <div className="about__container">
       <span>
@@ -12,6 +11,6 @@ function About(props) {
       <span>− George Orwell, 1984</span>
     </div>
   );
-}
+};
 
 export default About;
